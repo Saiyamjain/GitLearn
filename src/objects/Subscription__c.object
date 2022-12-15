@@ -1,0 +1,1259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>A subscription is a product or service that has recurring charges, such as a monthly flat fee or charges based on usage. Subscriptions can also include one-time charges, such as activation fees.</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fieldSets>
+        <fullName>Auto_Renewal_Fields</fullName>
+        <description>This is used in SubscriptionProductChargeSelector class</description>
+        <displayedFields>
+            <field>Account__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>AutoRenew__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>CustomerAccount__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Cancellation_option__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>CancelledDate__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MRR__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>ContractAcceptanceDate__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>ContractEffectiveDate__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>CreatedById</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>CreatedDate</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>CurrencyIsoCode</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>CurrentTerm__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>CurrentTermPeriodType__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>DAZN_Id__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>IsDeleted</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>InitialTerm__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>InitialTermPeriodType__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>InvoiceOwner__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LastActivityDate</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LastModifiedById</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LastModifiedDate</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>NextChargeDate__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Notes__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>OpportunityCloseDate__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>OpportunityName__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>OriginalCreated_Date__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>OriginalCreatedDate__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>OriginalId__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>OwnerId</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>PreviousSubscriptionId__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>QuoteBusinessType__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>QuoteNumber__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>QuoteType__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Id</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>RenewalTerm__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>RenewalTermPeriodType__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>ServiceActivationDate__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Status__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>SubPromoCode__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>SubscriptionEndDate__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>SubStatus__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>SystemModstamp</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>TCV__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>TermEndDate__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>TermSettingType__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>TermStartDate__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Version__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Auto Renewal Fields</label>
+    </fieldSets>
+    <fields>
+        <fullName>Account__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Subscriptions</relationshipLabel>
+        <relationshipName>Subscriptions</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>AutoRenew__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>AutoRenew?</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Cancel_Reason_Comment__c</fullName>
+        <description>Comment for soft cancellation</description>
+        <externalId>false</externalId>
+        <label>Cancel Reason Comment</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Cancel_Reason__c</fullName>
+        <description>Reason for soft cancellation</description>
+        <externalId>false</externalId>
+        <label>Cancel Reason</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>BroadbandTooSlow</fullName>
+                    <default>false</default>
+                    <label>BroadbandTooSlow</label>
+                </value>
+                <value>
+                    <fullName>BusinessClose</fullName>
+                    <default>false</default>
+                    <label>BusinessClose</label>
+                </value>
+                <value>
+                    <fullName>DecideLater</fullName>
+                    <default>false</default>
+                    <label>DecideLater</label>
+                </value>
+                <value>
+                    <fullName>I did not make any contract with DAZN For Business</fullName>
+                    <default>false</default>
+                    <label>I did not make any contract with DAZN For Business</label>
+                </value>
+                <value>
+                    <fullName>I want an off-season break</fullName>
+                    <default>false</default>
+                    <label>I want an off-season break</label>
+                </value>
+                <value>
+                    <fullName>MissDedicatedSports</fullName>
+                    <default>false</default>
+                    <label>MissDedicatedSports</label>
+                </value>
+                <value>
+                    <fullName>My order never arrived</fullName>
+                    <default>false</default>
+                    <label>My order never arrived</label>
+                </value>
+                <value>
+                    <fullName>NoSportsAnymore</fullName>
+                    <default>false</default>
+                    <label>NoSportsAnymore</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>PoorVideoQuality</fullName>
+                    <default>false</default>
+                    <label>PoorVideoQuality</label>
+                </value>
+                <value>
+                    <fullName>TechnicalProblems</fullName>
+                    <default>false</default>
+                    <label>TechnicalProblems</label>
+                </value>
+                <value>
+                    <fullName>The offer does not include the sports I need</fullName>
+                    <default>false</default>
+                    <label>The offer does not include the sports I need</label>
+                </value>
+                <value>
+                    <fullName>TooExpensive</fullName>
+                    <default>false</default>
+                    <label>TooExpensive</label>
+                </value>
+                <value>
+                    <fullName>ViaSatellite</fullName>
+                    <default>false</default>
+                    <label>ViaSatellite</label>
+                </value>
+                <value>
+                    <fullName>Buffering or issues with streaming</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Buffering or issues with streaming</label>
+                </value>
+                <value>
+                    <fullName>Business Closing/moving to a new owner</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Business Closing/moving to a new owner</label>
+                </value>
+                <value>
+                    <fullName>Doesn&apos;t like the UI</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Doesn&apos;t like the UI</label>
+                </value>
+                <value>
+                    <fullName>Doesn&apos;t like the commentating</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Doesn&apos;t like the commentating</label>
+                </value>
+                <value>
+                    <fullName>Duplicate Account</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Duplicate Account</label>
+                </value>
+                <value>
+                    <fullName>Internet too slow</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Internet too slow</label>
+                </value>
+                <value>
+                    <fullName>Playback fails/App Issues</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Playback fails/App Issues</label>
+                </value>
+                <value>
+                    <fullName>Poor video/audio/framerate</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Poor video/audio/framerate</label>
+                </value>
+                <value>
+                    <fullName>Season has finished</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Season has finished</label>
+                </value>
+                <value>
+                    <fullName>Sport/event unavailable</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Sport/event unavailable</label>
+                </value>
+                <value>
+                    <fullName>Suspicious Account</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Suspicious Account</label>
+                </value>
+                <value>
+                    <fullName>Too Expensive</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Too Expensive</label>
+                </value>
+                <value>
+                    <fullName>Unable to login</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Unable to login</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Cancel_Status__c</fullName>
+        <description>Filed to describe the current status of subscription cancellation</description>
+        <externalId>false</externalId>
+        <label>Cancel Status</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Soft</fullName>
+                    <default>false</default>
+                    <label>Soft cancelled</label>
+                </value>
+                <value>
+                    <fullName>Hard</fullName>
+                    <default>false</default>
+                    <label>Hard cancelled</label>
+                </value>
+                <value>
+                    <fullName>Undo</fullName>
+                    <default>false</default>
+                    <label>Undo cancel</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Cancellation_option__c</fullName>
+        <externalId>false</externalId>
+        <label>Cancellation option</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>SpecialCancellation</fullName>
+                    <default>false</default>
+                    <label>SpecialCancellation</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CancelledDate__c</fullName>
+        <description>The date of the Amendment object that canceled the subscription.</description>
+        <externalId>false</externalId>
+        <label>Cancelled Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ContractAcceptanceDate__c</fullName>
+        <description>This is the date on which the contract was accepted by the customer, and will trigger charges that have their trigger event set to Upon Customer Acceptance.</description>
+        <externalId>false</externalId>
+        <label>Contract Acceptance Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ContractEffectiveDate__c</fullName>
+        <description>This is the date on which the contract becomes effective, and will trigger charges that have their trigger event set to Upon Contract Effective.</description>
+        <externalId>false</externalId>
+        <label>Contract Effective Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>CurrentTermPeriodType__c</fullName>
+        <description>The period type for the current subscription term.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The period type of the current subscription term.</inlineHelpText>
+        <label>Current Term Period Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Month</fullName>
+                    <default>false</default>
+                    <label>Month</label>
+                </value>
+                <value>
+                    <fullName>Year</fullName>
+                    <default>false</default>
+                    <label>Year</label>
+                </value>
+                <value>
+                    <fullName>Day</fullName>
+                    <default>false</default>
+                    <label>Day</label>
+                </value>
+                <value>
+                    <fullName>Week</fullName>
+                    <default>false</default>
+                    <label>Week</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CurrentTerm__c</fullName>
+        <externalId>false</externalId>
+        <label>Current Term</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CustomerAccount__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Billing Account</label>
+        <referenceTo>CustomerAccount__c</referenceTo>
+        <relationshipLabel>Subscriptions</relationshipLabel>
+        <relationshipName>Subscriptions</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>DAZN_Id__c</fullName>
+        <description>The DAZN Id (external primary key) of this Subscription.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The DAZN Id (external primary key) of this Subscription.</inlineHelpText>
+        <label>DAZN Id (Deprecated)</label>
+        <length>32</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>External_Id__c</fullName>
+        <caseSensitive>true</caseSensitive>
+        <description>This field holds the DAZN object ID, and is used as external ID for data synchronization between Salesforce and DAZN.</description>
+        <externalId>true</externalId>
+        <label>External Id</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Hard_Cancel_Reason_Comment__c</fullName>
+        <description>Comment for Hard cancelation</description>
+        <externalId>false</externalId>
+        <label>Hard Cancel Reason Comment</label>
+        <length>131071</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Hard_Cancel_Reason__c</fullName>
+        <description>Reason for Hard cancelation</description>
+        <externalId>false</externalId>
+        <label>Hard Cancel Reason</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Poor video/audio</fullName>
+                    <default>false</default>
+                    <label>Poor video/audio</label>
+                </value>
+                <value>
+                    <fullName>Buffering or issues with streaming</fullName>
+                    <default>false</default>
+                    <label>Buffering or issues with streaming</label>
+                </value>
+                <value>
+                    <fullName>Playback fails/App Issues</fullName>
+                    <default>false</default>
+                    <label>Playback fails/App Issues</label>
+                </value>
+                <value>
+                    <fullName>Unable to login</fullName>
+                    <default>false</default>
+                    <label>Unable to login</label>
+                </value>
+                <value>
+                    <fullName>Duplicate Account</fullName>
+                    <default>false</default>
+                    <label>Duplicate Account</label>
+                </value>
+                <value>
+                    <fullName>Suspicious Account</fullName>
+                    <default>false</default>
+                    <label>Suspicious Account</label>
+                </value>
+                <value>
+                    <fullName>Bad Debt</fullName>
+                    <default>false</default>
+                    <label>Bad Debt</label>
+                </value>
+                <value>
+                    <fullName>Business Closing/moving to a new owner</fullName>
+                    <default>false</default>
+                    <label>Business Closing/moving to a new owner</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>InitialTermPeriodType__c</fullName>
+        <description>The period type for the first subscription term.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The period type for the first subscription term.</inlineHelpText>
+        <label>Initial Term Period Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Month</fullName>
+                    <default>false</default>
+                    <label>Month</label>
+                </value>
+                <value>
+                    <fullName>Year</fullName>
+                    <default>false</default>
+                    <label>Year</label>
+                </value>
+                <value>
+                    <fullName>Day</fullName>
+                    <default>false</default>
+                    <label>Day</label>
+                </value>
+                <value>
+                    <fullName>Week</fullName>
+                    <default>false</default>
+                    <label>Week</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>InitialTerm__c</fullName>
+        <externalId>false</externalId>
+        <label>Initial Term</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>InvoiceOwner__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Invoice Owner</label>
+        <referenceTo>CustomerAccount__c</referenceTo>
+        <relationshipLabel>Subscriptions (Invoice Owner)</relationshipLabel>
+        <relationshipName>Subscriptions1</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>MRR__c</fullName>
+        <externalId>false</externalId>
+        <label>CMRR</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>NextChargeDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Next Charge Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>NextRenewalDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Next Renewal Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Notes__c</fullName>
+        <externalId>false</externalId>
+        <label>Notes</label>
+        <length>32000</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>OpportunityCloseDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Opportunity Close Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>OpportunityName__c</fullName>
+        <externalId>false</externalId>
+        <label>Opportunity Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OriginalCreatedDate__c</fullName>
+        <description>The date when the subscription was originally created. This value is the same as the CreatedDate value until the subscription is amended.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The date when the subscription was originally created. This value is the same as the CreatedDate value until the subscription is amended.</inlineHelpText>
+        <label>Original Created Date (Deprecated)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>OriginalCreated_Date__c</fullName>
+        <description>The date when the subscription was originally created. This value is the same as the CreatedDate value until the subscription is amended.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The date when the subscription was originally created. This value is the same as the CreatedDate value until the subscription is amended.</inlineHelpText>
+        <label>Original Created Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>OriginalId__c</fullName>
+        <description>The original ID of this subscription.</description>
+        <externalId>false</externalId>
+        <label>Original Id</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PreviousSubscriptionId__c</fullName>
+        <description>The subscription ID immediately prior to the current subscription.</description>
+        <externalId>false</externalId>
+        <label>Previous Subscription Id</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QuoteBusinessType__c</fullName>
+        <externalId>false</externalId>
+        <label>Quote Business Type</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QuoteNumber__c</fullName>
+        <externalId>false</externalId>
+        <label>Quote Number</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QuoteType__c</fullName>
+        <externalId>false</externalId>
+        <label>Quote Type</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rejoined__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Field that indicates if a customer rejoined with Dazn</description>
+        <externalId>false</externalId>
+        <label>Rejoined</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>RenewalTermPeriodType__c</fullName>
+        <description>The period type for the subscription renewal term.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The period type for the subscription renewal term.</inlineHelpText>
+        <label>Renewal Term Period Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Month</fullName>
+                    <default>false</default>
+                    <label>Month</label>
+                </value>
+                <value>
+                    <fullName>Year</fullName>
+                    <default>false</default>
+                    <label>Year</label>
+                </value>
+                <value>
+                    <fullName>Day</fullName>
+                    <default>false</default>
+                    <label>Day</label>
+                </value>
+                <value>
+                    <fullName>Week</fullName>
+                    <default>false</default>
+                    <label>Week</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>RenewalTerm__c</fullName>
+        <externalId>false</externalId>
+        <label>Renewal Term</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ServiceActivationDate__c</fullName>
+        <description>This is when the service was activated, and will trigger charges that have their trigger event set to Upon Service Activation.</description>
+        <externalId>false</externalId>
+        <label>Service Activation Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Active</fullName>
+                    <default>true</default>
+                    <label>Active</label>
+                </value>
+                <value>
+                    <fullName>Inactive</fullName>
+                    <default>false</default>
+                    <label>Inactive</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SubPromoCode__c</fullName>
+        <externalId>false</externalId>
+        <label>Sub PromoCode</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SubStatus__c</fullName>
+        <externalId>false</externalId>
+        <label>SubStatus</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SubscriptionEndDate__c</fullName>
+        <description>This is when the subscription ends. This is always equal to term end date, unless the subscription has been cancelled. If the subscription has been cancelled, this is set to the cancellation date.</description>
+        <externalId>false</externalId>
+        <label>Subscription End Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>SubscriptionNumber__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <externalId>true</externalId>
+        <label>Subscription Number</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>SubscriptionStartDate__c</fullName>
+        <description>The date when the subscription term starts. This is equal to the term start date if the subscription is on its initial term. Otherwise, it is the original term start date if the subscription has renewed.</description>
+        <externalId>false</externalId>
+        <label>Subscription Start Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>TCV__c</fullName>
+        <externalId>false</externalId>
+        <label>TCV</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>TermEndDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Term End Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>TermSettingType__c</fullName>
+        <description>Case sensitive. Denotes if a subscription is evergreen (has no end date or term length) or has a term.</description>
+        <externalId>false</externalId>
+        <label>Term Setting Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>TERMED</fullName>
+                    <default>false</default>
+                    <label>TERMED</label>
+                </value>
+                <value>
+                    <fullName>EVERGREEN</fullName>
+                    <default>false</default>
+                    <label>EVERGREEN</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TermStartDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Term Start Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Terms_Conditions_Version__c</fullName>
+        <description>Field to hold version of terms a condition</description>
+        <externalId>false</externalId>
+        <label>Terms &amp; Conditions Version</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Undo_soft_cancel_reason__c</fullName>
+        <description>Field to show undo soft cancellation reason</description>
+        <externalId>false</externalId>
+        <label>Undo soft cancel reason</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Customer changed mind</fullName>
+                    <default>false</default>
+                    <label>Customer changed mind</label>
+                </value>
+                <value>
+                    <fullName>Soft Cancelled in error</fullName>
+                    <default>false</default>
+                    <label>Soft Cancelled in error</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Undo_soft_cancel_reason_comment__c</fullName>
+        <description>Field to show comment for undo cancellation</description>
+        <externalId>false</externalId>
+        <label>Undo soft cancel reason comment</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Version__c</fullName>
+        <externalId>false</externalId>
+        <label>Version</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <label>DAZN Subscription</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <displayFormat>A-S{00000000}</displayFormat>
+        <label>Subscription Name</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>DAZN Subscriptions</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

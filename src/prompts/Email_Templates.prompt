@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Prompt xmlns="http://soap.sforce.com/2006/04/metadata">
+    <masterLabel>Email_Templates</masterLabel>
+    <promptVersions>
+        <body>Check our your out-of-the-box email templates by changing your list view from Recent to All Email Templates.</body>
+        <customApplication>standard__LightningService</customApplication>
+        <delayDays>1</delayDays>
+        <dismissButtonLabel>Dismiss</dismissButtonLabel>
+        <displayPosition>TopCenter</displayPosition>
+        <displayType>FloatingPanel</displayType>
+        <isPublished>true</isPublished>
+        <masterLabel>Email_Templates</masterLabel>
+        <publishedDate>2020-01-23</publishedDate>
+        <shouldDisplayActionButton>false</shouldDisplayActionButton>
+        <shouldIgnoreGlobalDelay>false</shouldIgnoreGlobalDelay>
+        <startDate>2020-01-23</startDate>
+        <targetPageKey1>EmailTemplate</targetPageKey1>
+        <targetPageKey2>home</targetPageKey2>
+        <targetPageType>standard__objectPage</targetPageType>
+        <timesToDisplay>1</timesToDisplay>
+        <title>Explore Your Email Templates</title>
+        <userAccess>Everyone</userAccess>
+        <userProfileAccess>Everyone</userProfileAccess>
+        <versionNumber>1</versionNumber>
+    </promptVersions>
+</Prompt>
