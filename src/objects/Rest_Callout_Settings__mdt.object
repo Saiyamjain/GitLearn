@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Max_Retry_Count__c</fullName>
+        <description>Maximum number of retries to do when a callout fails</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Max Retry Count</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <label>Rest Callout Settings</label>
+    <pluralLabel>Rest Callout Settings</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

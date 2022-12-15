@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Configuration related to sending invoice/debit memo.</description>
+    <fields>
+        <fullName>Adhoc_Device_Account_Types__c</fullName>
+        <description>Account record type names for which adhoc device logic is ran.</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Adhoc Device Account Types</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Is_Active__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>Sending invoice/debit memo is active when checked.</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Is Active</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Welcome_Email_Account_Types__c</fullName>
+        <description>Account record type names for which welcome email logic is ran.</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Welcome Email Account Types</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <label>Invoice Callout Configuration</label>
+    <pluralLabel>Invoice Callout Configuration</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

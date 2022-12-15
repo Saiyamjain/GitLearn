@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionSubtype>ScreenAction</actionSubtype>
+    <description>this &quot;Edit&quot; button opens the signUpFormCmp</description>
+    <label>Edit &quot;Sign Up Form&quot;</label>
+    <lightningWebComponent>signUpFormCmp</lightningWebComponent>
+    <optionsCreateFeedItem>false</optionsCreateFeedItem>
+    <type>LightningWebComponent</type>
+</QuickAction>
