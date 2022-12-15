@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ManagedTopics xmlns="http://soap.sforce.com/2006/04/metadata">
+    <managedTopic>
+        <fullName>Help.Content:Legal</fullName>
+        <managedTopicType>Content</managedTopicType>
+        <name>Legal</name>
+        <parentName></parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Help.Content:Sign Up</fullName>
+        <managedTopicType>Content</managedTopicType>
+        <name>Sign Up</name>
+        <parentName></parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Help.Featured:Legal</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>Legal</name>
+        <parentName></parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Help.Navigational:Legal</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Legal</name>
+        <parentName></parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+</ManagedTopics>

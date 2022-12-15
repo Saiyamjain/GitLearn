@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Case Routing Configuration</description>
+    <fields>
+        <fullName>Fetch_Settings_from_RoutingConfiguration__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This field determines if the settings are fetched from the Routing Config mentioned.</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Fetch Settings from RoutingConfiguration</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Routing_Configurations_Developer_Name__c</fullName>
+        <description>Routing Configurations Developer Name</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Routing Configurations Developer Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Case Routing Configuration</label>
+    <pluralLabel>Case Routing Configurations</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>
