@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This metadata will hold the duplicate rule name that will be used in apex to bypass the duplicate rules when records are getting created by D3</description>
+    <fields>
+        <fullName>Duplicate_rule_name__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Duplicate rule name</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <label>Duplicate Rule Setting</label>
+    <pluralLabel>Duplicate Rule Settings</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>
