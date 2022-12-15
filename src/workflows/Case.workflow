@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Notify_on_Case_Closed_AT_DE</fullName>
+        <description>Notify on Case Closed AT DE</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact_Us_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>help@business.dazn.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Case_Closed_Notification/Case_Closed_AT_DE</template>
+    </alerts>
+    <alerts>
+        <fullName>Notify_on_Case_Closed_AT_EN</fullName>
+        <description>Notify on Case Closed AT EN</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact_Us_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>help@business.dazn.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Case_Closed_Notification/Case_Closed_AT_EN</template>
+    </alerts>
+    <alerts>
+        <fullName>Notify_on_Case_Closed_CH_DE</fullName>
+        <description>Notify on Case Closed CH DE</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact_Us_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>help@business.dazn.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Case_Closed_Notification/Case_Closed_CH_DE</template>
+    </alerts>
+    <alerts>
+        <fullName>Notify_on_Case_Closed_CH_EN</fullName>
+        <description>Notify on Case Closed CH EN</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact_Us_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>help@business.dazn.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Case_Closed_Notification/Case_Closed_CH_EN</template>
+    </alerts>
+    <alerts>
+        <fullName>Notify_on_Case_Closed_DE_DE</fullName>
+        <description>Notify on Case Closed DE DE</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact_Us_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>help@business.dazn.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Case_Closed_Notification/Case_Closed_DE_DE</template>
+    </alerts>
+    <alerts>
+        <fullName>Notify_on_Case_Closed_DE_EN</fullName>
+        <description>Notify on Case Closed DE EN</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact_Us_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>help@business.dazn.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Case_Closed_Notification/Case_Closed_DE_EN</template>
+    </alerts>
+    <alerts>
+        <fullName>Notify_on_Case_Closed_JP_EN</fullName>
+        <description>Notify on Case Closed JP EN</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact_Us_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>help@business.dazn.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Case_Closed_Notification/Case_Closed_JP_EN</template>
+    </alerts>
+    <alerts>
+        <fullName>Notify_on_Case_Closed_JP_JA</fullName>
+        <description>Notify on Case Closed JP JA</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact_Us_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>help@business.dazn.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Case_Closed_Notification/Case_Closed_JP_JA</template>
+    </alerts>
+    <alerts>
+        <fullName>Notify_on_Case_Created_AT_DE</fullName>
+        <description>Notify on Case Created AT DE</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact_Us_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>help@business.dazn.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Case_Created_Notification/Case_Created_AT_DE</template>
+    </alerts>
+    <alerts>
+        <fullName>Notify_on_Case_Created_AT_EN</fullName>
+        <description>Notify on Case Created AT EN</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact_Us_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>help@business.dazn.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Case_Created_Notification/Case_Created_AT_EN</template>
+    </alerts>
+    <alerts>
+        <fullName>Notify_on_Case_Created_CH_DE</fullName>
+        <description>Notify on Case Created CH DE</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact_Us_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>help@business.dazn.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Case_Created_Notification/Case_Created_CH_DE</template>
+    </alerts>
+    <alerts>
+        <fullName>Notify_on_Case_Created_CH_EN</fullName>
+        <description>Notify on Case Created CH EN</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact_Us_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>help@business.dazn.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Case_Created_Notification/Case_Created_CH_EN</template>
+    </alerts>
+    <alerts>
+        <fullName>Notify_on_Case_Created_DE_DE</fullName>
+        <description>Notify on Case Created DE DE</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact_Us_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>help@business.dazn.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Case_Created_Notification/Case_Created_DE_DE</template>
+    </alerts>
+    <alerts>
+        <fullName>Notify_on_Case_Created_DE_EN</fullName>
+        <description>Notify on Case Created DE EN</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact_Us_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>help@business.dazn.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Case_Created_Notification/Case_Created_DE_EN</template>
+    </alerts>
+    <alerts>
+        <fullName>Notify_on_Case_Created_JP_EN</fullName>
+        <description>Notify on Case Created JP EN</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact_Us_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>help@business.dazn.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Case_Created_Notification/Case_Created_JP_EN</template>
+    </alerts>
+    <alerts>
+        <fullName>Notify_on_Case_Created_JP_JA</fullName>
+        <description>Notify on Case Created JP JA</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact_Us_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>help@business.dazn.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Case_Created_Notification/Case_Created_JP_JA</template>
+    </alerts>
+</Workflow>
